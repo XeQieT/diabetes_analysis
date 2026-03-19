@@ -16,8 +16,8 @@ Installation
     Clone this repository:
     bash
 
-    git clone https://github.com/your-username/diabetes-health-dashboard.git
-    cd diabetes-health-dashboard
+    git clone https://github.com/XeQieT/diabetes_analysis.git
+    cd diabetes_analysis
 
     Install dependencies:
     bash
