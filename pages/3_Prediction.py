@@ -14,7 +14,7 @@ model = load_model()
 
 @st.cache_data
 def load_feature_names():
-    df = pd.read_csv("data/diabetes_binary_5050split.csv")
+    df = pd.read_csv("data/diabetes_binary_5050split_health_indicators_BRFSS2015.csv")
     return df.drop('Diabetes_binary', axis=1).columns.tolist()
 
 feature_names = load_feature_names()
